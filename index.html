@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gwheyvee — Coming Soon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black: #101010;
+      --ivory: #F7F4EE;
+      --copper: #986439;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--ivory);
+      color: var(--black);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    .logo {
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .copper-line {
+      width: 50px;
+      height: 2px;
+      background: var(--copper);
+      margin: 1.2rem auto 1.5rem;
+    }
+
+    .coming-soon {
+      font-weight: 300;
+      font-size: 1.15rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Gwheyvee</div>
+    <div class="copper-line"></div>
+    <p class="coming-soon">Coming Soon</p>
+  </div>
+</body>
+</html>
